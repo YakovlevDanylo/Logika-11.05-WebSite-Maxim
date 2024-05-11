@@ -1,0 +1,89 @@
+body {
+    font-family: fantasy;
+    background-color: rgb(150, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+main {
+    text-align: center;
+}
+
+.logo-name {
+    display: flex;
+    background-color: black;
+}
+
+.game-info {
+    width: 1000px;
+    display: flex;
+    margin: 50px auto;
+    align-items: center;
+}
+
+aside img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+footer a {
+    color: rgb(255, 65, 65);
+    text-decoration: none;
+}
+
+main div img{
+    width: 400px;
+    height: 200px;
+}
+
+header div p {
+    font-size: 30px;
+    color: red;
+}
+
+article {
+    margin: 5px;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.right{
+float: right;
+}
+
+.stars {
+    width: 350px;
+    height: 80px;
+    display: flex;
+}
+
+.game_play {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    padding-bottom: 50px; 
+}
+
+.Screenshots {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.score {
+    margin-left: 50px;
+    display: flex;
+}
+
+.socials {
+    margin-left: 50px;
+    font-size: 30px;
+}
